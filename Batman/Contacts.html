@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="Reset-CSS.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="Batman.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="nav">
+        <a href="Profile.html">Profile</a>
+        <a href="Friends.html">Friends</a>
+        <a class="current" href="Contacts.html">Contacts</a>
+        <a href="Trailers.html">Trailers</a>
+        <div class="dropdown">
+            <span>Bases</span>
+            <div class="dropdown-content">
+                <p>Bat Cave</p>
+                <p>Justice League Tower</p>
+            </div>
+        </div>
+        <a href="DrawBatman.html">DrawBatman</a>
+    </div>
+    <h1>Contact Batman</h1>
+    <form>
+        <fieldset>
+            <legend>Send Batman a message:</legend>
+            <div class="names">
+                <div>
+                    First name:
+                    <br>
+                    <input type="text">
+                    <br> Last name:
+                    <br>
+                    <input type="text">
+                    <br> Email:
+                    <br>
+                    <input type="email" required="true" />
+                </div>
+                <div>
+                    Message:
+                    <br>
+                    <input id="message-box" type="text">
+                </div>
+            </div>
+            <p>Are you a friend?</p>
+            <div class="radio-button">
+                <input type="radio" id="Yes" name="friend" value="yes" checked="checked">Yes, of course <br>
+                <input type="radio" id="Maybe" name="friend" value="maybe" >Maybe </br>
+                <input type="radio" id="no" name="friend" value="NO"> NO </br>
+                <input type="radio" id="we'll see" name="friend" value="we'll see">We'll see </br>
+            </div>
+
+            <input id="sendBTN" type="reset" name="Send the form" value="Send" />
+        </fieldset>
+    </form>
+</body>
+
+</html>

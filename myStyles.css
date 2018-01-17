@@ -1,0 +1,29 @@
+    #firstDiv {
+    background: white;
+}
+
+.sample {
+    background: red;
+}
+
+div {
+    background: green;
+    color: gray;
+    font-size: 30px;
+}
+
+.something {
+    font-family: cursive;
+}
+
+p>a {
+    font-size: 10px;
+}
+
+p#post-text.special {
+    background: green;
+}
+
+.sample:hover {
+    background: yellow;
+}
